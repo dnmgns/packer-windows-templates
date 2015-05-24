@@ -1,0 +1,283 @@
+2015/05/24 22:57:39 [INFO] Packer version: 0.7.5  9cd66feeacbd9cb318b72eb5ed59428c5b8c37ac+CHANGES
+2015/05/24 22:57:39 Packer Target OS/Arch: darwin amd64
+2015/05/24 22:57:39 Built with Go Version: go1.3.3
+2015/05/24 22:57:39 [DEBUG] Discoverd plugin: amazon-chroot = /usr/local/bin/packer-builder-amazon-chroot
+2015/05/24 22:57:39 [DEBUG] Discoverd plugin: amazon-ebs = /usr/local/bin/packer-builder-amazon-ebs
+2015/05/24 22:57:39 [DEBUG] Discoverd plugin: amazon-instance = /usr/local/bin/packer-builder-amazon-instance
+2015/05/24 22:57:39 [DEBUG] Discoverd plugin: amazon-windows-ebs = /usr/local/bin/packer-builder-amazon-windows-ebs
+2015/05/24 22:57:39 [DEBUG] Discoverd plugin: digitalocean = /usr/local/bin/packer-builder-digitalocean
+2015/05/24 22:57:39 [DEBUG] Discoverd plugin: docker = /usr/local/bin/packer-builder-docker
+2015/05/24 22:57:39 [DEBUG] Discoverd plugin: googlecompute = /usr/local/bin/packer-builder-googlecompute
+2015/05/24 22:57:39 [DEBUG] Discoverd plugin: null = /usr/local/bin/packer-builder-null
+2015/05/24 22:57:39 [DEBUG] Discoverd plugin: openstack = /usr/local/bin/packer-builder-openstack
+2015/05/24 22:57:39 [DEBUG] Discoverd plugin: parallels-iso = /usr/local/bin/packer-builder-parallels-iso
+2015/05/24 22:57:39 [DEBUG] Discoverd plugin: parallels-pvm = /usr/local/bin/packer-builder-parallels-pvm
+2015/05/24 22:57:39 [DEBUG] Discoverd plugin: parallels-windows-iso = /usr/local/bin/packer-builder-parallels-windows-iso
+2015/05/24 22:57:39 [DEBUG] Discoverd plugin: parallels-windows-pvm = /usr/local/bin/packer-builder-parallels-windows-pvm
+2015/05/24 22:57:39 [DEBUG] Discoverd plugin: qemu = /usr/local/bin/packer-builder-qemu
+2015/05/24 22:57:39 [DEBUG] Discoverd plugin: virtualbox-iso = /usr/local/bin/packer-builder-virtualbox-iso
+2015/05/24 22:57:39 [DEBUG] Discoverd plugin: virtualbox-ovf = /usr/local/bin/packer-builder-virtualbox-ovf
+2015/05/24 22:57:39 [DEBUG] Discoverd plugin: virtualbox-windows-iso = /usr/local/bin/packer-builder-virtualbox-windows-iso
+2015/05/24 22:57:39 [DEBUG] Discoverd plugin: virtualbox-windows-ovf = /usr/local/bin/packer-builder-virtualbox-windows-ovf
+2015/05/24 22:57:39 [DEBUG] Discoverd plugin: vmware-iso = /usr/local/bin/packer-builder-vmware-iso
+2015/05/24 22:57:39 [DEBUG] Discoverd plugin: vmware-vmx = /usr/local/bin/packer-builder-vmware-vmx
+2015/05/24 22:57:39 [DEBUG] Discoverd plugin: vmware-windows-iso = /usr/local/bin/packer-builder-vmware-windows-iso
+2015/05/24 22:57:39 [DEBUG] Discoverd plugin: vmware-windows-vmx = /usr/local/bin/packer-builder-vmware-windows-vmx
+2015/05/24 22:57:39 [DEBUG] Discoverd plugin: atlas = /usr/local/bin/packer-post-processor-atlas
+2015/05/24 22:57:39 [DEBUG] Discoverd plugin: compress = /usr/local/bin/packer-post-processor-compress
+2015/05/24 22:57:39 [DEBUG] Discoverd plugin: docker-import = /usr/local/bin/packer-post-processor-docker-import
+2015/05/24 22:57:39 [DEBUG] Discoverd plugin: docker-push = /usr/local/bin/packer-post-processor-docker-push
+2015/05/24 22:57:39 [DEBUG] Discoverd plugin: docker-save = /usr/local/bin/packer-post-processor-docker-save
+2015/05/24 22:57:39 [DEBUG] Discoverd plugin: docker-tag = /usr/local/bin/packer-post-processor-docker-tag
+2015/05/24 22:57:39 [DEBUG] Discoverd plugin: vagrant = /usr/local/bin/packer-post-processor-vagrant
+2015/05/24 22:57:39 [DEBUG] Discoverd plugin: vagrant-cloud = /usr/local/bin/packer-post-processor-vagrant-cloud
+2015/05/24 22:57:39 [DEBUG] Discoverd plugin: vsphere = /usr/local/bin/packer-post-processor-vsphere
+2015/05/24 22:57:39 [DEBUG] Discoverd plugin: ansible-local = /usr/local/bin/packer-provisioner-ansible-local
+2015/05/24 22:57:39 [DEBUG] Discoverd plugin: chef-client = /usr/local/bin/packer-provisioner-chef-client
+2015/05/24 22:57:39 [DEBUG] Discoverd plugin: chef-solo = /usr/local/bin/packer-provisioner-chef-solo
+2015/05/24 22:57:39 [DEBUG] Discoverd plugin: file = /usr/local/bin/packer-provisioner-file
+2015/05/24 22:57:39 [DEBUG] Discoverd plugin: powershell = /usr/local/bin/packer-provisioner-powershell
+2015/05/24 22:57:39 [DEBUG] Discoverd plugin: puppet-masterless = /usr/local/bin/packer-provisioner-puppet-masterless
+2015/05/24 22:57:39 [DEBUG] Discoverd plugin: puppet-server = /usr/local/bin/packer-provisioner-puppet-server
+2015/05/24 22:57:39 [DEBUG] Discoverd plugin: restart-windows = /usr/local/bin/packer-provisioner-restart-windows
+2015/05/24 22:57:39 [DEBUG] Discoverd plugin: salt-masterless = /usr/local/bin/packer-provisioner-salt-masterless
+2015/05/24 22:57:39 [DEBUG] Discoverd plugin: shell = /usr/local/bin/packer-provisioner-shell
+2015/05/24 22:57:39 [DEBUG] Discoverd plugin: windows-shell = /usr/local/bin/packer-provisioner-windows-shell
+2015/05/24 22:57:39 Detected home directory from env var: /Users/magnus
+2015/05/24 22:57:39 [DEBUG] Discoverd plugin: amazon-windows-ebs = /Users/magnus/.packer.d/plugins/packer-builder-amazon-windows-ebs
+2015/05/24 22:57:39 [DEBUG] Discoverd plugin: parallels-windows-iso = /Users/magnus/.packer.d/plugins/packer-builder-parallels-windows-iso
+2015/05/24 22:57:39 [DEBUG] Discoverd plugin: parallels-windows-pvm = /Users/magnus/.packer.d/plugins/packer-builder-parallels-windows-pvm
+2015/05/24 22:57:39 [DEBUG] Discoverd plugin: virtualbox-windows-iso = /Users/magnus/.packer.d/plugins/packer-builder-virtualbox-windows-iso
+2015/05/24 22:57:39 [DEBUG] Discoverd plugin: virtualbox-windows-ovf = /Users/magnus/.packer.d/plugins/packer-builder-virtualbox-windows-ovf
+2015/05/24 22:57:39 [DEBUG] Discoverd plugin: vmware-windows-iso = /Users/magnus/.packer.d/plugins/packer-builder-vmware-windows-iso
+2015/05/24 22:57:39 [DEBUG] Discoverd plugin: vmware-windows-vmx = /Users/magnus/.packer.d/plugins/packer-builder-vmware-windows-vmx
+2015/05/24 22:57:39 [DEBUG] Discoverd plugin: powershell = /Users/magnus/.packer.d/plugins/packer-provisioner-powershell
+2015/05/24 22:57:39 [DEBUG] Discoverd plugin: restart-windows = /Users/magnus/.packer.d/plugins/packer-provisioner-restart-windows
+2015/05/24 22:57:39 [DEBUG] Discoverd plugin: windows-shell = /Users/magnus/.packer.d/plugins/packer-provisioner-windows-shell
+2015/05/24 22:57:39 Detected home directory from env var: /Users/magnus
+2015/05/24 22:57:39 Attempting to open config file: /Users/magnus/.packerconfig
+2015/05/24 22:57:39 File doesn't exist, but doesn't need to. Ignoring.
+2015/05/24 22:57:39 Packer config: &{DisableCheckpoint:false DisableCheckpointSignature:false PluginMinPort:10000 PluginMaxPort:25000 Builders:map[amazon-instance:/usr/local/bin/packer-builder-amazon-instance null:/usr/local/bin/packer-builder-null parallels-windows-iso:/Users/magnus/.packer.d/plugins/packer-builder-parallels-windows-iso qemu:/usr/local/bin/packer-builder-qemu virtualbox-windows-iso:/Users/magnus/.packer.d/plugins/packer-builder-virtualbox-windows-iso vmware-vmx:/usr/local/bin/packer-builder-vmware-vmx amazon-windows-ebs:/Users/magnus/.packer.d/plugins/packer-builder-amazon-windows-ebs parallels-iso:/usr/local/bin/packer-builder-parallels-iso parallels-pvm:/usr/local/bin/packer-builder-parallels-pvm virtualbox-iso:/usr/local/bin/packer-builder-virtualbox-iso amazon-chroot:/usr/local/bin/packer-builder-amazon-chroot amazon-ebs:/usr/local/bin/packer-builder-amazon-ebs googlecompute:/usr/local/bin/packer-builder-googlecompute parallels-windows-pvm:/Users/magnus/.packer.d/plugins/packer-builder-parallels-windows-pvm vmware-iso:/usr/local/bin/packer-builder-vmware-iso digitalocean:/usr/local/bin/packer-builder-digitalocean docker:/usr/local/bin/packer-builder-docker openstack:/usr/local/bin/packer-builder-openstack virtualbox-ovf:/usr/local/bin/packer-builder-virtualbox-ovf virtualbox-windows-ovf:/Users/magnus/.packer.d/plugins/packer-builder-virtualbox-windows-ovf vmware-windows-iso:/Users/magnus/.packer.d/plugins/packer-builder-vmware-windows-iso vmware-windows-vmx:/Users/magnus/.packer.d/plugins/packer-builder-vmware-windows-vmx] PostProcessors:map[docker-import:/usr/local/bin/packer-post-processor-docker-import docker-push:/usr/local/bin/packer-post-processor-docker-push docker-tag:/usr/local/bin/packer-post-processor-docker-tag vagrant:/usr/local/bin/packer-post-processor-vagrant vagrant-cloud:/usr/local/bin/packer-post-processor-vagrant-cloud vsphere:/usr/local/bin/packer-post-processor-vsphere atlas:/usr/local/bin/packer-post-processor-atlas compress:/usr/local/bin/packer-post-processor-compress docker-save:/usr/local/bin/packer-post-processor-docker-save] Provisioners:map[salt-masterless:/usr/local/bin/packer-provisioner-salt-masterless ansible-local:/usr/local/bin/packer-provisioner-ansible-local chef-solo:/usr/local/bin/packer-provisioner-chef-solo powershell:/Users/magnus/.packer.d/plugins/packer-provisioner-powershell restart-windows:/Users/magnus/.packer.d/plugins/packer-provisioner-restart-windows shell:/usr/local/bin/packer-provisioner-shell windows-shell:/Users/magnus/.packer.d/plugins/packer-provisioner-windows-shell chef-client:/usr/local/bin/packer-provisioner-chef-client file:/usr/local/bin/packer-provisioner-file puppet-masterless:/usr/local/bin/packer-provisioner-puppet-masterless puppet-server:/usr/local/bin/packer-provisioner-puppet-server]}
+2015/05/24 22:57:39 Detected home directory from env var: /Users/magnus
+2015/05/24 22:57:39 Setting cache directory: /Users/magnus/dev/dnmgns/packer-windows-templates/packer_cache
+2015/05/24 22:57:39 Reading template: windows_2008_r2/vbox-ovf.json
+2015/05/24 22:57:39 Creating build: virtualbox-windows-ovf
+2015/05/24 22:57:39 Loading builder: virtualbox-windows-ovf
+2015/05/24 22:57:39 Creating plugin client for path: /Users/magnus/.packer.d/plugins/packer-builder-virtualbox-windows-ovf
+2015/05/24 22:57:39 Starting plugin: /Users/magnus/.packer.d/plugins/packer-builder-virtualbox-windows-ovf []string{"/Users/magnus/.packer.d/plugins/packer-builder-virtualbox-windows-ovf"}
+2015/05/24 22:57:39 Waiting for RPC address for: /Users/magnus/.packer.d/plugins/packer-builder-virtualbox-windows-ovf
+2015/05/24 22:57:39 packer-builder-virtualbox-windows-ovf: 2015/05/24 22:57:39 Plugin minimum port: 10000
+2015/05/24 22:57:39 packer-builder-virtualbox-windows-ovf: 2015/05/24 22:57:39 Plugin maximum port: 25000
+2015/05/24 22:57:39 packer-builder-virtualbox-windows-ovf: 2015/05/24 22:57:39 Plugin address: unix /var/folders/c2/hzn1_yfs747cd1m8vh1q1ltr0000gn/T/packer-plugin743992095
+2015/05/24 22:57:39 packer-builder-virtualbox-windows-ovf: 2015/05/24 22:57:39 Waiting for connection...
+2015/05/24 22:57:39 packer-builder-virtualbox-windows-ovf: 2015/05/24 22:57:39 Serving a plugin connection...
+2015/05/24 22:57:39 Loading post-processor: vagrant
+2015/05/24 22:57:39 Creating plugin client for path: /usr/local/bin/packer-post-processor-vagrant
+2015/05/24 22:57:39 Starting plugin: /usr/local/bin/packer-post-processor-vagrant []string{"/usr/local/bin/packer-post-processor-vagrant"}
+2015/05/24 22:57:39 Waiting for RPC address for: /usr/local/bin/packer-post-processor-vagrant
+2015/05/24 22:57:39 packer-post-processor-vagrant: 2015/05/24 22:57:39 Plugin minimum port: 10000
+2015/05/24 22:57:39 packer-post-processor-vagrant: 2015/05/24 22:57:39 Plugin maximum port: 25000
+2015/05/24 22:57:39 packer-post-processor-vagrant: 2015/05/24 22:57:39 Plugin address: unix /var/folders/c2/hzn1_yfs747cd1m8vh1q1ltr0000gn/T/packer-plugin885461227
+2015/05/24 22:57:39 packer-post-processor-vagrant: 2015/05/24 22:57:39 Waiting for connection...
+2015/05/24 22:57:39 packer-post-processor-vagrant: 2015/05/24 22:57:39 Serving a plugin connection...
+2015/05/24 22:57:39 Loading provisioner: powershell
+2015/05/24 22:57:39 Creating plugin client for path: /Users/magnus/.packer.d/plugins/packer-provisioner-powershell
+2015/05/24 22:57:39 Starting plugin: /Users/magnus/.packer.d/plugins/packer-provisioner-powershell []string{"/Users/magnus/.packer.d/plugins/packer-provisioner-powershell"}
+2015/05/24 22:57:39 Waiting for RPC address for: /Users/magnus/.packer.d/plugins/packer-provisioner-powershell
+2015/05/24 22:57:39 packer-provisioner-powershell: 2015/05/24 22:57:39 Plugin minimum port: 10000
+2015/05/24 22:57:39 packer-provisioner-powershell: 2015/05/24 22:57:39 Plugin maximum port: 25000
+2015/05/24 22:57:39 packer-provisioner-powershell: 2015/05/24 22:57:39 Plugin address: unix /var/folders/c2/hzn1_yfs747cd1m8vh1q1ltr0000gn/T/packer-plugin979671610
+2015/05/24 22:57:39 packer-provisioner-powershell: 2015/05/24 22:57:39 Waiting for connection...
+2015/05/24 22:57:39 packer-provisioner-powershell: 2015/05/24 22:57:39 Serving a plugin connection...
+2015/05/24 22:57:39 Loading provisioner: powershell
+2015/05/24 22:57:39 Creating plugin client for path: /Users/magnus/.packer.d/plugins/packer-provisioner-powershell
+2015/05/24 22:57:39 Starting plugin: /Users/magnus/.packer.d/plugins/packer-provisioner-powershell []string{"/Users/magnus/.packer.d/plugins/packer-provisioner-powershell"}
+2015/05/24 22:57:39 Waiting for RPC address for: /Users/magnus/.packer.d/plugins/packer-provisioner-powershell
+2015/05/24 22:57:39 packer-provisioner-powershell: 2015/05/24 22:57:39 Plugin minimum port: 10000
+2015/05/24 22:57:39 packer-provisioner-powershell: 2015/05/24 22:57:39 Plugin maximum port: 25000
+2015/05/24 22:57:39 packer-provisioner-powershell: 2015/05/24 22:57:39 Plugin address: unix /var/folders/c2/hzn1_yfs747cd1m8vh1q1ltr0000gn/T/packer-plugin411662443
+2015/05/24 22:57:39 packer-provisioner-powershell: 2015/05/24 22:57:39 Waiting for connection...
+2015/05/24 22:57:39 packer-provisioner-powershell: 2015/05/24 22:57:39 Serving a plugin connection...
+2015/05/24 22:57:39 ui: [1;32mvirtualbox-windows-ovf output will be in this color.[0m
+2015/05/24 22:57:39 ui: 
+2015/05/24 22:57:39 Build debug mode: false
+2015/05/24 22:57:39 Force build: false
+2015/05/24 22:57:39 Preparing build: virtualbox-windows-ovf
+2015/05/24 22:57:39 Waiting on builds to complete...
+2015/05/24 22:57:39 Starting build run: virtualbox-windows-ovf
+2015/05/24 22:57:39 Running builder: virtualbox-windows-ovf
+2015/05/24 22:57:39 packer-builder-virtualbox-windows-ovf: 2015/05/24 22:57:39 VBoxManage path: /usr/bin/VBoxManage
+2015/05/24 22:57:39 packer-builder-virtualbox-windows-ovf: 2015/05/24 22:57:39 No WinRM Host provided, using default host 127.0.0.1
+2015/05/24 22:57:39 packer-builder-virtualbox-windows-ovf: 2015/05/24 22:57:39 Have address from config: 127.0.0.1:5985
+2015/05/24 22:57:39 packer-builder-virtualbox-windows-ovf: 2015/05/24 22:57:39 Suppressing annoying messages in VirtualBox
+2015/05/24 22:57:39 packer-builder-virtualbox-windows-ovf: 2015/05/24 22:57:39 Executing VBoxManage: []string{"setextradata", "global", "GUI/RegistrationData", "triesLeft=0"}
+2015/05/24 22:57:39 packer-builder-virtualbox-windows-ovf: 2015/05/24 22:57:39 stdout:
+2015/05/24 22:57:39 packer-builder-virtualbox-windows-ovf: 2015/05/24 22:57:39 stderr:
+2015/05/24 22:57:39 packer-builder-virtualbox-windows-ovf: 2015/05/24 22:57:39 Executing VBoxManage: []string{"setextradata", "global", "GUI/SuppressMessages", "confirmInputCapture,remindAboutAutoCapture,remindAboutMouseIntegrationOff,remindAboutMouseIntegrationOn,remindAboutWrongColorDepth"}
+2015/05/24 22:57:39 packer-builder-virtualbox-windows-ovf: 2015/05/24 22:57:39 stdout:
+2015/05/24 22:57:39 packer-builder-virtualbox-windows-ovf: 2015/05/24 22:57:39 stderr:
+2015/05/24 22:57:39 packer-builder-virtualbox-windows-ovf: 2015/05/24 22:57:39 Executing VBoxManage: []string{"setextradata", "global", "GUI/UpdateCheckCount", "60"}
+2015/05/24 22:57:39 packer-builder-virtualbox-windows-ovf: 2015/05/24 22:57:39 stdout:
+2015/05/24 22:57:39 packer-builder-virtualbox-windows-ovf: 2015/05/24 22:57:39 stderr:
+2015/05/24 22:57:39 packer-builder-virtualbox-windows-ovf: 2015/05/24 22:57:39 Executing VBoxManage: []string{"setextradata", "global", "GUI/UpdateDate", "1 d, 2016-01-01, stable"}
+2015/05/24 22:57:39 packer-builder-virtualbox-windows-ovf: 2015/05/24 22:57:39 stdout:
+2015/05/24 22:57:39 packer-builder-virtualbox-windows-ovf: 2015/05/24 22:57:39 stderr:
+2015/05/24 22:57:39 packer-builder-virtualbox-windows-ovf: 2015/05/24 22:57:39 No floppy files specified. Floppy disk will not be made.
+2015/05/24 22:57:39 packer-builder-virtualbox-windows-ovf: 2015/05/24 22:57:39 Not downloading guest additions since it is disabled.
+2015/05/24 22:57:39 ui: [1;32m==> virtualbox-windows-ovf: Importing VM: output-virtualbox-windows-iso/windows_2008_r2.ova[0m
+2015/05/24 22:57:39 packer-builder-virtualbox-windows-ovf: 2015/05/24 22:57:39 Executing VBoxManage: []string{"import", "output-virtualbox-windows-iso/windows_2008_r2.ova", "--vsys", "0", "--vmname", "packer-virtualbox-windows-ovf-1432501059"}
+2015/05/24 22:58:59 packer-builder-virtualbox-windows-ovf: 2015/05/24 22:58:59 stdout: Disks:  vmdisk1	64424509440	-1	http://www.vmware.com/interfaces/specifications/vmdk.html#streamOptimized	windows_2008_r2-disk1.vmdk	-1	-1
+2015/05/24 22:58:59 packer-builder-virtualbox-windows-ovf: Virtual system 0:
+2015/05/24 22:58:59 packer-builder-virtualbox-windows-ovf:  0: Suggested OS type: "Windows2012_64"
+2015/05/24 22:58:59 packer-builder-virtualbox-windows-ovf:     (change with "--vsys 0 --ostype <type>"; use "list ostypes" to list all possible values)
+2015/05/24 22:58:59 packer-builder-virtualbox-windows-ovf:  1: VM name specified with --vmname: "packer-virtualbox-windows-ovf-1432501059"
+2015/05/24 22:58:59 packer-builder-virtualbox-windows-ovf:  2: Number of CPUs: 1
+2015/05/24 22:58:59 packer-builder-virtualbox-windows-ovf:     (change with "--vsys 0 --cpus <n>")
+2015/05/24 22:58:59 packer-builder-virtualbox-windows-ovf:  3: Guest memory: 2048 MB
+2015/05/24 22:58:59 packer-builder-virtualbox-windows-ovf:     (change with "--vsys 0 --memory <MB>")
+2015/05/24 22:58:59 packer-builder-virtualbox-windows-ovf:  4: Network adapter: orig NAT, config 3, extra slot=0;type=NAT
+2015/05/24 22:58:59 packer-builder-virtualbox-windows-ovf:  5: IDE controller, type PIIX4
+2015/05/24 22:58:59 packer-builder-virtualbox-windows-ovf:     (disable with "--vsys 0 --unit 5 --ignore")
+2015/05/24 22:58:59 packer-builder-virtualbox-windows-ovf:  6: IDE controller, type PIIX4
+2015/05/24 22:58:59 packer-builder-virtualbox-windows-ovf:     (disable with "--vsys 0 --unit 6 --ignore")
+2015/05/24 22:58:59 packer-builder-virtualbox-windows-ovf:  7: Hard disk image: source image=windows_2008_r2-disk1.vmdk, target path=/Users/magnus/VirtualBox VMs/windows_2008_r2/windows_2008_r2-disk1_1.vmdk, controller=5;channel=0
+2015/05/24 22:58:59 packer-builder-virtualbox-windows-ovf:     (change target path with "--vsys 0 --unit 7 --disk path";
+2015/05/24 22:58:59 packer-builder-virtualbox-windows-ovf:     disable with "--vsys 0 --unit 7 --ignore")
+2015/05/24 22:58:59 packer-builder-virtualbox-windows-ovf: Successfully imported the appliance.
+2015/05/24 22:58:59 packer-builder-virtualbox-windows-ovf: 2015/05/24 22:58:59 stderr: 0%...10%...20%...30%...40%...50%...60%...70%...80%...90%...100%
+2015/05/24 22:58:59 packer-builder-virtualbox-windows-ovf: Interpreting /Users/magnus/dev/dnmgns/packer-windows-templates/output-virtualbox-windows-iso/windows_2008_r2.ova...
+2015/05/24 22:58:59 packer-builder-virtualbox-windows-ovf: OK.
+2015/05/24 22:58:59 packer-builder-virtualbox-windows-ovf: 0%...10%...20%...30%...40%...50%...60%...70%...80%...90%...100%
+2015/05/24 22:58:59 packer-builder-virtualbox-windows-ovf: 2015/05/24 22:58:59 Not attaching guest additions since we're uploading.
+2015/05/24 22:58:59 packer-builder-virtualbox-windows-ovf: 2015/05/24 22:58:59 No floppy disk, not attaching.
+2015/05/24 22:58:59 packer-builder-virtualbox-windows-ovf: 2015/05/24 22:58:59 Looking for available WinRM port between 4985 and 6985
+2015/05/24 22:58:59 packer-builder-virtualbox-windows-ovf: 2015/05/24 22:58:59 Trying port: 5340
+2015/05/24 22:58:59 ui: [1;32m==> virtualbox-windows-ovf: Creating forwarded port mapping for WinRM (host port 5340)[0m
+2015/05/24 22:58:59 packer-builder-virtualbox-windows-ovf: 2015/05/24 22:58:59 Executing VBoxManage: []string{"modifyvm", "packer-virtualbox-windows-ovf-1432501059", "--natpf1", "packerwinrm,tcp,127.0.0.1,5340,,5985"}
+2015/05/24 22:58:59 packer-builder-virtualbox-windows-ovf: 2015/05/24 22:58:59 stdout:
+2015/05/24 22:58:59 packer-builder-virtualbox-windows-ovf: 2015/05/24 22:58:59 stderr:
+2015/05/24 22:58:59 ui: [1;32m==> virtualbox-windows-ovf: Executing custom VBoxManage commands...[0m
+2015/05/24 22:58:59 ui: [0;32m    virtualbox-windows-ovf: Executing: modifyvm packer-virtualbox-windows-ovf-1432501059 --memory 2048[0m
+2015/05/24 22:58:59 packer-builder-virtualbox-windows-ovf: 2015/05/24 22:58:59 Executing VBoxManage: []string{"modifyvm", "packer-virtualbox-windows-ovf-1432501059", "--memory", "2048"}
+2015/05/24 22:58:59 packer-builder-virtualbox-windows-ovf: 2015/05/24 22:58:59 stdout:
+2015/05/24 22:58:59 packer-builder-virtualbox-windows-ovf: 2015/05/24 22:58:59 stderr:
+2015/05/24 22:58:59 ui: [0;32m    virtualbox-windows-ovf: Executing: modifyvm packer-virtualbox-windows-ovf-1432501059 --cpus 1[0m
+2015/05/24 22:58:59 packer-builder-virtualbox-windows-ovf: 2015/05/24 22:58:59 Executing VBoxManage: []string{"modifyvm", "packer-virtualbox-windows-ovf-1432501059", "--cpus", "1"}
+2015/05/24 22:58:59 packer-builder-virtualbox-windows-ovf: 2015/05/24 22:58:59 stdout:
+2015/05/24 22:58:59 packer-builder-virtualbox-windows-ovf: 2015/05/24 22:58:59 stderr:
+2015/05/24 22:58:59 ui: [1;32m==> virtualbox-windows-ovf: Starting the virtual machine...[0m
+2015/05/24 22:58:59 packer-builder-virtualbox-windows-ovf: 2015/05/24 22:58:59 Executing VBoxManage: []string{"startvm", "packer-virtualbox-windows-ovf-1432501059", "--type", "gui"}
+2015/05/24 22:59:01 packer-builder-virtualbox-windows-ovf: 2015/05/24 22:59:01 stdout: Waiting for VM "packer-virtualbox-windows-ovf-1432501059" to power on...
+2015/05/24 22:59:01 packer-builder-virtualbox-windows-ovf: VM "packer-virtualbox-windows-ovf-1432501059" has been successfully started.
+2015/05/24 22:59:01 packer-builder-virtualbox-windows-ovf: 2015/05/24 22:59:01 stderr:
+2015/05/24 22:59:01 ui: [1;32m==> virtualbox-windows-ovf: Waiting 1m0s for boot...[0m
+2015/05/24 23:00:01 ui: [1;32m==> virtualbox-windows-ovf: Typing the boot command...[0m
+2015/05/24 23:00:01 packer-builder-virtualbox-windows-ovf: 2015/05/24 23:00:01 Waiting for WinRM, up to timeout: 10m0s
+2015/05/24 23:00:01 ui: [1;32m==> virtualbox-windows-ovf: Waiting for WinRM to become available...[0m
+2015/05/24 23:00:06 packer-builder-virtualbox-windows-ovf: 2015/05/24 23:00:06 Attempting WinRM connection (timeout: 10m0s)
+2015/05/24 23:00:07 ui: [1;32m==> virtualbox-windows-ovf: Connected to WinRM![0m
+2015/05/24 23:00:07 packer-builder-virtualbox-windows-ovf: 2015/05/24 23:00:07 VBoxManage --version output: 4.3.26r98988
+2015/05/24 23:00:07 packer-builder-virtualbox-windows-ovf: 2015/05/24 23:00:07 VirtualBox version: 4.3.26
+2015/05/24 23:00:07 ui: [1;32m==> virtualbox-windows-ovf: Uploading VirtualBox version info (4.3.26)[0m
+2015/05/24 23:00:09 packer-builder-virtualbox-windows-ovf: 2015/05/24 23:00:09 Not uploading guest additions since mode is not upload
+2015/05/24 23:00:09 packer-builder-virtualbox-windows-ovf: 2015/05/24 23:00:09 Running the provision hook
+2015/05/24 23:00:09 ui: [1;32m==> virtualbox-windows-ovf: Provisioning with Powershell...[0m
+2015/05/24 23:00:09 packer-provisioner-powershell: 2015/05/24 23:00:09 Found command: iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))
+2015/05/24 23:00:09 ui: [1;32m==> virtualbox-windows-ovf: Provisioning with shell script: /var/folders/c2/hzn1_yfs747cd1m8vh1q1ltr0000gn/T/packer-powershell-provisioner695932497[0m
+2015/05/24 23:00:09 packer-provisioner-powershell: 2015/05/24 23:00:09 Opening /var/folders/c2/hzn1_yfs747cd1m8vh1q1ltr0000gn/T/packer-powershell-provisioner695932497 for reading
+2015/05/24 23:00:09 packer-provisioner-powershell: 2015/05/24 23:00:09 [INFO] 86 bytes written for 'uploadData'
+2015/05/24 23:00:09 [INFO] 86 bytes written for 'uploadData'
+2015/05/24 23:00:10 packer-builder-virtualbox-windows-ovf: 2015/05/24 23:00:10 starting remote command: powershell "& { $env:PACKER_BUILDER_TYPE=\"virtualbox-windows-ovf\"; $env:PACKER_BUILD_NAME=\"virtualbox-windows-ovf\"; c:/Windows/Temp/script.ps1; exit $LastExitCode}"
+2015/05/24 23:00:24 ui: [0;32m    virtualbox-windows-ovf:[0m
+2015/05/24 23:00:24 ui: [0;32m    virtualbox-windows-ovf: Mode                LastWriteTime     Length Name[0m
+2015/05/24 23:00:24 ui: [0;32m    virtualbox-windows-ovf: ----                -------------     ------ ----[0m
+2015/05/24 23:00:24 ui: [0;32m    virtualbox-windows-ovf: d----         5/24/2015  11:00 PM            chocInstall[0m
+2015/05/24 23:00:24 ui: [0;32m    virtualbox-windows-ovf: Downloading https://chocolatey.org/api/v2/package/chocolatey/ to C:\Users\packer\AppData\Local\Temp\chocolatey\chocInstall\chocolatey.zip[0m
+2015/05/24 23:00:28 ui: [0;32m    virtualbox-windows-ovf: Download 7Zip commandline tool[0m
+2015/05/24 23:00:28 ui: [0;32m    virtualbox-windows-ovf: Downloading https://chocolatey.org/7za.exe to C:\Users\packer\AppData\Local\Temp\chocolatey\chocInstall\7za.exe[0m
+2015/05/24 23:00:29 ui: [0;32m    virtualbox-windows-ovf: Extracting C:\Users\packer\AppData\Local\Temp\chocolatey\chocInstall\chocolatey.zip to C:\Users\packer\AppData\Local\Temp\chocolatey\chocInstall...[0m
+2015/05/24 23:00:29 ui: [0;32m    virtualbox-windows-ovf:[0m
+2015/05/24 23:00:29 ui: [0;32m    virtualbox-windows-ovf: 7-Zip (A) 9.20  Copyright (c) 1999-2010 Igor Pavlov  2010-11-18[0m
+2015/05/24 23:00:29 ui: [0;32m    virtualbox-windows-ovf:[0m
+2015/05/24 23:00:29 ui: [0;32m    virtualbox-windows-ovf: Processing archive: C:\Users\packer\AppData\Local\Temp\chocolatey\chocInstall\chocolatey.zip[0m
+2015/05/24 23:00:29 ui: [0;32m    virtualbox-windows-ovf:[0m
+2015/05/24 23:00:29 ui: [0;32m    virtualbox-windows-ovf: Extracting  _rels\.rels[0m
+2015/05/24 23:00:29 ui: [0;32m    virtualbox-windows-ovf: Extracting  chocolatey.nuspec[0m
+2015/05/24 23:00:29 ui: [0;32m    virtualbox-windows-ovf: Extracting  tools\chocolateyInstall.ps1[0m
+2015/05/24 23:00:29 ui: [0;32m    virtualbox-windows-ovf: Extracting  tools\chocolateysetup.psm1[0m
+2015/05/24 23:00:29 ui: [0;32m    virtualbox-windows-ovf: Extracting  tools\init.ps1[0m
+2015/05/24 23:00:29 ui: [0;32m    virtualbox-windows-ovf: Extracting  tools\chocolateyInstall\choco.exe[0m
+2015/05/24 23:00:29 ui: [0;32m    virtualbox-windows-ovf: Extracting  tools\chocolateyInstall\choco.exe.ignore[0m
+2015/05/24 23:00:29 ui: [0;32m    virtualbox-windows-ovf: Extracting  package\services\metadata\core-properties\61804721eec44e8592a61904d0a62022.psmdcp[0m
+2015/05/24 23:00:29 ui: [0;32m    virtualbox-windows-ovf: Extracting  [Content_Types].xml[0m
+2015/05/24 23:00:29 ui: [0;32m    virtualbox-windows-ovf:[0m
+2015/05/24 23:00:29 ui: [0;32m    virtualbox-windows-ovf: Everything is Ok[0m
+2015/05/24 23:00:29 ui: [0;32m    virtualbox-windows-ovf:[0m
+2015/05/24 23:00:29 ui: [0;32m    virtualbox-windows-ovf: Files: 9[0m
+2015/05/24 23:00:29 ui: [0;32m    virtualbox-windows-ovf: Size:       3738621[0m
+2015/05/24 23:00:29 ui: [0;32m    virtualbox-windows-ovf: Compressed: 1259522[0m
+2015/05/24 23:00:29 ui: [0;32m    virtualbox-windows-ovf: Installing chocolatey on this machine[0m
+2015/05/24 23:00:29 ui: [0;32m    virtualbox-windows-ovf: Downloading 'http://download.microsoft.com/download/9/5/A/95A9616B-7A37-4AF6-BC36-D6EA96C8DAAE/dotNetFx40_Full_x86_x64.exe' to 'C:\Users\packer\AppData\Local\Temp\dotNetFx40_Full_x86_x64.exe' - the installer is 40+ MBs, so this could take awhile on a slow connection.[0m
+2015/05/24 23:00:46 ui: [0;32m    virtualbox-windows-ovf: Installing 'C:\Users\packer\AppData\Local\Temp\dotNetFx40_Full_x86_x64.exe' - this may take awhile with no output.[0m
+2015/05/24 23:05:17 ui: [0;32m    virtualbox-windows-ovf: WARNING: First try of .NET framework install failed with exit code '5'. Trying[0m
+2015/05/24 23:05:17 ui: [0;32m    virtualbox-windows-ovf: again.[0m
+2015/05/24 23:05:17 ui: [0;32m    virtualbox-windows-ovf: Installing 'C:\Users\packer\AppData\Local\Temp\dotNetFx40_Full_x86_x64.exe' - this may take awhile with no output.[0m
+2015/05/24 23:07:24 ui: [0;32m    virtualbox-windows-ovf: Install-DotNet4IfMissing : .NET Framework install failed with exit code '5'.[0m
+2015/05/24 23:07:24 ui: [0;32m    virtualbox-windows-ovf: This will cause the rest of the install to fail.[0m
+2015/05/24 23:07:24 ui: [0;32m    virtualbox-windows-ovf: At C:\Users\packer\AppData\Local\Temp\chocolatey\chocInstall\tools\chocolateyse[0m
+2015/05/24 23:07:24 ui: [0;32m    virtualbox-windows-ovf: tup.psm1:489 char:33[0m
+2015/05/24 23:07:24 ui: [0;32m    virtualbox-windows-ovf: +         Install-DotNet4IfMissing <<<<  $true[0m
+2015/05/24 23:07:24 packer-builder-virtualbox-windows-ovf: 2015/05/24 23:07:24 [INFO] RPC endpoint: Communicator ended with: 1
+2015/05/24 23:07:24 ui: [0;32m    virtualbox-windows-ovf: + CategoryInfo          : NotSpecified: (:) [Write-Error], WriteErrorExcep[0m
+2015/05/24 23:07:24 ui: [0;32m    virtualbox-windows-ovf: tion[0m
+2015/05/24 23:07:24 ui: [0;32m    virtualbox-windows-ovf: + FullyQualifiedErrorId : Microsoft.PowerShell.Commands.WriteErrorExceptio[0m
+2015/05/24 23:07:24 ui: [0;32m    virtualbox-windows-ovf: n,Install-DotNet4IfMissing[0m
+2015/05/24 23:07:24 ui: [0;32m    virtualbox-windows-ovf:[0m
+2015/05/24 23:07:24 ui: [0;32m    virtualbox-windows-ovf: Error installing .NET Framework 4.0 (exit code 5).[0m
+2015/05/24 23:07:24 ui: [0;32m    virtualbox-windows-ovf: Please install the .NET Framework 4.0 manually and then try to install Chocola[0m
+2015/05/24 23:07:24 ui: [0;32m    virtualbox-windows-ovf: tey again.[0m
+2015/05/24 23:07:24 ui: [0;32m    virtualbox-windows-ovf: Download at 'http://download.microsoft.com/download/9/5/A/95A9616B-7A37-4AF6-B[0m
+2015/05/24 23:07:24 ui: [0;32m    virtualbox-windows-ovf: C36-D6EA96C8DAAE/dotNetFx40_Full_x86_x64.exe'[0m
+2015/05/24 23:07:24 ui: [0;32m    virtualbox-windows-ovf: At C:\Users\packer\AppData\Local\Temp\chocolatey\chocInstall\tools\chocolateyse[0m
+2015/05/24 23:07:24 [INFO] 1931 bytes written for 'stdout'
+2015/05/24 23:07:24 [INFO] 1528 bytes written for 'stderr'
+2015/05/24 23:07:24 ui: [0;32m    virtualbox-windows-ovf: tup.psm1:486 char:14[0m
+2015/05/24 23:07:24 ui: [0;32m    virtualbox-windows-ovf: +         throw <<<<  "Error installing .NET Framework 4.0 (exit code $($s.Exit[0m
+2015/05/24 23:07:24 ui: [0;32m    virtualbox-windows-ovf: Code)). `n Please install the .NET Framework 4.0 manually and then try to insta[0m
+2015/05/24 23:07:24 ui: [0;32m    virtualbox-windows-ovf: ll Chocolatey again. `n Download at `'$NetFx4Url`'"[0m
+2015/05/24 23:07:24 ui: [0;32m    virtualbox-windows-ovf: + CategoryInfo          : OperationStopped: (Error installin...ll_x86_x64.[0m
+2015/05/24 23:07:24 ui: [0;32m    virtualbox-windows-ovf: exe':String) [], RuntimeException[0m
+2015/05/24 23:07:24 ui: [0;32m    virtualbox-windows-ovf: + FullyQualifiedErrorId : Error installing .NET Framework 4.0 (exit code 5[0m
+2015/05/24 23:07:24 ui: [0;32m    virtualbox-windows-ovf: ).[0m
+2015/05/24 23:07:24 ui: [0;32m    virtualbox-windows-ovf: Please install the .NET Framework 4.0 manually and then try to install Ch[0m
+2015/05/24 23:07:24 ui: [0;32m    virtualbox-windows-ovf: ocolatey again.[0m
+2015/05/24 23:07:24 ui: [0;32m    virtualbox-windows-ovf: Download at 'http://download.microsoft.com/download/9/5/A/95A9616B-7A37-4[0m
+2015/05/24 23:07:24 ui: [0;32m    virtualbox-windows-ovf: AF6-BC36-D6EA96C8DAAE/dotNetFx40_Full_x86_x64.exe'[0m
+2015/05/24 23:07:24 ui: [0;32m    virtualbox-windows-ovf:[0m
+2015/05/24 23:07:24 [INFO] RPC client: Communicator ended with: 1
+2015/05/24 23:07:24 [INFO] RPC endpoint: Communicator ended with: 1
+2015/05/24 23:07:24 packer-provisioner-powershell: 2015/05/24 23:07:24 [INFO] 1528 bytes written for 'stderr'
+2015/05/24 23:07:24 packer-provisioner-powershell: 2015/05/24 23:07:24 [INFO] 1931 bytes written for 'stdout'
+2015/05/24 23:07:24 packer-provisioner-powershell: 2015/05/24 23:07:24 [INFO] RPC client: Communicator ended with: 1
+2015/05/24 23:07:24 packer-builder-virtualbox-windows-ovf: 2015/05/24 23:07:24 Executing VBoxManage: []string{"controlvm", "packer-virtualbox-windows-ovf-1432501059", "poweroff"}
+2015/05/24 23:07:24 packer-builder-virtualbox-windows-ovf: 2015/05/24 23:07:24 stdout:
+2015/05/24 23:07:24 packer-builder-virtualbox-windows-ovf: 2015/05/24 23:07:24 stderr: 0%...10%...20%...30%...40%...50%...60%...70%...80%...90%...100%
+2015/05/24 23:07:24 ui: [1;32m==> virtualbox-windows-ovf: Unregistering and deleting imported VM...[0m
+2015/05/24 23:07:24 packer-builder-virtualbox-windows-ovf: 2015/05/24 23:07:24 Executing VBoxManage: []string{"unregistervm", "packer-virtualbox-windows-ovf-1432501059", "--delete"}
+2015/05/24 23:07:26 packer-builder-virtualbox-windows-ovf: 2015/05/24 23:07:26 stdout:
+2015/05/24 23:07:26 packer-builder-virtualbox-windows-ovf: 2015/05/24 23:07:26 stderr: 0%...10%...20%...30%...40%...50%...60%...70%...80%...90%...100%
+2015/05/24 23:07:26 ui: [1;32m==> virtualbox-windows-ovf: Deleting output directory...[0m
+2015/05/24 23:07:26 ui error: [1;31mBuild 'virtualbox-windows-ovf' errored: Script exited with non-zero exit status: 1. Allowed exit codes are: [%!s(int=0)][0m
+2015/05/24 23:07:26 Builds completed. Waiting on interrupt barrier...
+2015/05/24 23:07:26 machine readable: error-count []string{"1"}
+2015/05/24 23:07:26 ui error: 
+==> Some builds didn't complete successfully and had errors:
+2015/05/24 23:07:26 machine readable: virtualbox-windows-ovf,error []string{"Script exited with non-zero exit status: 1. Allowed exit codes are: [%!s(int=0)]"}
+2015/05/24 23:07:26 ui error: --> virtualbox-windows-ovf: Script exited with non-zero exit status: 1. Allowed exit codes are: [%!s(int=0)]
+2015/05/24 23:07:26 ui: 
+==> Builds finished but no artifacts were created.
+2015/05/24 23:07:26 waiting for all plugin processes to complete...
+2015/05/24 23:07:26 /Users/magnus/.packer.d/plugins/packer-builder-virtualbox-windows-ovf: plugin process exited
+2015/05/24 23:07:26 /Users/magnus/.packer.d/plugins/packer-provisioner-powershell: plugin process exited
+2015/05/24 23:07:26 /usr/local/bin/packer-post-processor-vagrant: plugin process exited
+2015/05/24 23:07:26 /Users/magnus/.packer.d/plugins/packer-provisioner-powershell: plugin process exited
