@@ -1,0 +1,38 @@
+{
+  "builders": [{
+    "type": "virtualbox-windows-ovf",
+    "source_path": "output-virtualbox-windows-iso/windows_2008_r2.ova",
+    "headless": false,
+    "boot_wait": "1m",
+    "winrm_username": "packer",
+    "winrm_password": "packer",
+    "winrm_wait_timeout": "10m",
+    "guest_additions_mode": "disable",
+    "shutdown_timeout": "2h",
+    "shutdown_command": "shutdown /s /t 7200 /f /d p:4:1 /c \"Packer Shutdown\"",
+    "vboxmanage": [
+      ["modifyvm", "{{.Name}}", "--memory", "2048"],
+      ["modifyvm", "{{.Name}}", "--cpus", "1"]
+    ]
+  }],
+  "provisioners": [{
+    "type": "powershell",
+    "elevated_user": "packer",
+    "elevated_password": "packer",
+    "scripts": ["./scripts/chocolatey.ps1"]
+  },
+   {
+    "type": "powershell",
+    "elevated_user": "packer",
+    "elevated_password": "packer",
+    "inline": [
+      "choco install netfx-4.5.2-devpack"
+    ]}
+  ],
+  "post-processors": [{
+    "type": "vagrant",
+    "keep_input_artifact": false,
+    "output": "windows_2008_r2_{{.Provider}}.box",
+    "vagrantfile_template": "windows_2008_r2/Vagrantfile.template"
+  }]
+}

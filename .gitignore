@@ -1,0 +1,28 @@
+log.txt
+.DS_Store
+packer_cache/
+output-*
+
+*.iso
+*.ova
+*.nvram
+*.plist
+*.vmsd
+*.vmx
+*.vmxf
+*.vmdk
+*.raw
+*.img
+*.qcow2
+*.tar.gz
+*.tgz
+
+*.box
+.vagrant
+Vagrantfile
+
+# Only check in .example
+# versions of these files
+Autounattend.xml
+vmware-tools.ps1
+amz-vars.json
